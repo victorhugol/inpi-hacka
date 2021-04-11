@@ -11,7 +11,10 @@
 
 ## Container
 
-1 - docker run --name inpi -e MYSQL_ROOT_PASSWORD=minha-senha -d -p 3306:3306 mysql/mysql-server:latest
+1 - rodar container do banco de dados
+```bash
+docker run --name inpi -e MYSQL_ROOT_PASSWORD=minha-senha -d -p 3306:3306 mysql/mysql-server:latest
+```
 
 
 ## Aplicação
@@ -27,7 +30,6 @@ $ pip3 install -r requirements.txt
 4 - criar um arquivo .env para armazenar as variaveis de ambiente seguintes:
 ```
 DB_URL=localhost:3306
-
 ```
 
 3 - rodar setup
