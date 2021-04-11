@@ -1,4 +1,4 @@
-# Aplicação criada para do Hacka do INPI
+# Aplicação criada para o Hacka do INPI
 
 ## Pre requisitos
 
