@@ -13,7 +13,7 @@
 
 1 - rodar container do banco de dados
 ```bash
-docker run --name inpi -e MYSQL_ROOT_PASSWORD=minha-senha -d -p 3306:3306 mysql/mysql-server:latest
+$ docker run --name inpi -e MYSQL_ROOT_PASSWORD=minha-senha -d -p 3306:3306 mysql/mysql-server:latest
 ```
 
 
